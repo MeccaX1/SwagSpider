@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<style>
+		body {
+			background:url("common/indexbg.png");
+			background-size:cover;
+		}
+		#menu {
+			width: 300px;
+			height: 140px;
+			border-width: 28px 3px 3px 3px;
+			border-radius: 5px 5px 0px 0px;
+			border-style:solid; border-color:#034FE7;
+			margin: 10% auto;
+			padding: 10px;
+			background-color:#E9E8D9;
+		}
+		ul { list-style-type:none; }
+		h4 {
+			margin:-32px 0 0 0;
+			color:white;
+		}
+		#close {
+			width:20px;
+			height:20px;
+			border:1px solid white;
+			border-radius:2px;
+			margin:-26px 0 0 288px;
+			padding:0;
+			background-color:red;
+			color:white;
+		}
+		#play {
+			display:block;
+			margin:auto;
+		}
+		</style>
+		<script src="common/jQuery.js"></script>
+		<script> 
+		$(function(){
+			$("#play").click(function() {
+				var windowname="game_"+$("input:checked").val()+".html";
+				window.open(windowname,'_self');
+			});
+		});
+		</script>
+	</head>
+	<body>
+        <div id="menu">
+			<h4> Difficoltà </h4> <button id="close">X</button>
+			<p>seleziona il livello di difficoltà:</p>
+			<ul>
+				<li><input type="radio" name="opt" value="easy" checked="checked"/> Facile: un seme
+				<li><input type="radio" name="opt" value="medium" /> Medio: due semi
+				<li><input type="radio" name="opt" value="hard" /> Difficile: quattro semi
+			</ul>
+			<button id="play">GIOCA</button>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+	min-width:1000px;
+	overflow:hidden;
+	background:url("background.png");
+	background-size:cover;
+	color:white;
+}
+
+.carta , .cont_carta {
+	height:120px;
+	position:relative;
+}
+.carta { pointer-events:none; }
+
+#scala, #mazzo, li {
+	height:120px;
+	width:83px;
+}
+#scala, #mazzo, #info {
+	position:absolute;
+	bottom:100px;
+	z-index:-1;
+}
+#scala { left:5%; }
+#mazzo { right:5%; }
+
+ul { padding-left:0px; }
+li {
+	float:left;
+	margin-left:10px;
+	list-style-type:none;
+	border:1px solid white;
+	border-radius:5px;
+}
+#info {
+	width:200px;
+	left:40%;
+	background-color:forestgreen;
+	border:1px solid black;
+}
+#info p { text-align:center; }
+
+#debug {
+	position:absolute;
+	bottom:10px;
+	z-index:-1;
+}

@@ -1,0 +1,44 @@
+lavorate sempre su copie del file easy nominandole easy v 0.xx
+
+v 0.06 Pera
+-aggiunte carte coperte nei vari box
+-aggiunta prima implementazione scala
+-ottimizzazione codice (elimiazione funzione srctonum)
+
+v 0.07 Pera
+-aggiunta seconda implementazione scala
+-ottimizzazione codice ESTREMA
+
+v 0.08 Pera
+-aggiunta terza implementazione scala (il K)
+-aggiunta prima implementazione mazzo
+
+v 0.081 Mechetti
+-risolto bug carta rimane coperta
+
+v 0.082 Mechetti
+-risolto bug carta rimane coperta e coretto bug creato dalla versione precedente
+-aggiunta prima implementazione distribuzione
+
+v 0.083 Mechetti
+-risolti bug
+-aggiunta seconda implementazione distribuzione
+
+v 0.09 Mechetti
+-aggiunto contatore scale
+
+v 0.99 Pera
+-suddivisione file e riorganizzazione cartelle e .svg carte
+-ottimizzazione estrema
+-corretti alcuni bug minori
+
+v 1.0
+-aggiunte animazioni distribuzione e scala
+-ottimizzazione estrema codice
+-migliorata grafica
+-riorganizzazione cartelle
+
+OBIETTIVI
+-> fare una vittoria un po più bella con possibilità di rincominciare
+-> BUG funzione "checkscala": abbiamo tutte le carte da K a 2 e viene posato asso cliccando sulla distribuzione carte (caso raro ma possibile) -> la scala non avviene
+-> BUG animazioni: spammando il tasto sul mazzo o andando ad interferire durante le animazioni, si creano scompigli grafici
